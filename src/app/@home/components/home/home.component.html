@@ -80,14 +80,15 @@
   {{paused ? 'Cycle' : 'Pause' }}
   </button> -->
   </div>
-  <div class="col-3 text-center mb-4">
+  <div class="col-3 text-center mb-4 ads1">
     <img src="./assets/temp-imgs/advertise.jfif" height="420" width="280">
   </div>
 </div>
 <!-- ///////////////////////////////////////////// -->
 <div class="container-fluid pt-4 pb-4" *ngFor="let item of allCategories">
   <div class="text-center dTitle">
-    <h1 class="titel  p-2" style="background-color: #4d4d4c; color:red;padding-right:30px;font-weight:bold;">
+    <h1 class="titel  p-2"
+    style="background-color: #4d4d4c; color:red;padding-right:30px;font-weight:bold;">
       {{item.name}}</h1>
   </div>
   <!-- Section: Images -->

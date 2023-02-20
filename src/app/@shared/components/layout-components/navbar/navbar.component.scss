@@ -8,8 +8,8 @@
  text-align: end;
  background-color: $p2Color;
  justify-content: left;
- 
-a.b
+
+b
 {color:$p1Color!important ;
     margin:15px 25px 0px 25px;
 }}
@@ -36,15 +36,15 @@ a.b
 //     }
 //     @media (max-width:576px){
 //     background-color: black;
-    
+
 //     }}
-    
+
     ul{
         margin-left:auto;
 
     }
     li{margin:0px 12px 0px 10px;
-    
+
 }
 // .underLogo
 // {
@@ -63,7 +63,7 @@ a.b
 //   }
   .navbar
 {
- background-color:$p1Color; 
+ background-color:$p1Color;
  justify-content:space-between;
  position:fixed;
  width:100%!important;
@@ -78,14 +78,14 @@ header{
 {
    text-align: right ;
    background-color:$p1Color!important;
-   
+
 .dropdown-item
 {color:whitesmoke!important;
     height:40px;
     border-radius:8px;
     padding-top:12px;
 }
-padding:15px 0px 15px 0px; 
+padding:15px 0px 15px 0px;
 
 }
 a{
@@ -105,7 +105,7 @@ a{
     margin-top:7px;
     justify-content: space-between;
     padding:0px 1.75rem 0px 1.75rem;
-    
+
     font-family: 'Courier New', Courier, monospace;
   }
   .dropdown-item:hover
@@ -152,10 +152,22 @@ a{
       color: red;
       margin-right:10px;
       // font-weight: bold;
-      // margin-bottom:px;
+      margin-bottom:-2px;
   }
   .bossAbout
   { margin-right:12px;
-    color:$p1Color!important ;
-    font-style: italic;
+  }
+
+  @media (max-width: 480px) {
+    .nav-item {
+      text-align: right;
+    }
+    .bossImg{
+      width: 100;
+      height: 100;
+    }
+    .bossName{
+      font-size: 18px;
+    }
+
   }

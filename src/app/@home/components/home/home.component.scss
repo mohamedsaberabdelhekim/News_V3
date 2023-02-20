@@ -2,7 +2,7 @@
     padding:0PX;}
     .container-fluid
     {
-        position: relative; 
+        position: relative;
          width: 98% !important;
          overflow-x: hidden;
          margin-left:1%;
@@ -18,7 +18,7 @@
     }
     .dTitle
 {
-   
+
     margin-bottom:30px;
     color: rgba(204, 7, 7);
     font-weight: bolder!important;
@@ -30,7 +30,7 @@
 .news {
     width: 160px;
   }
-  
+
   .news-scroll a {
     text-decoration: none;
     margin-left:10px;
@@ -45,4 +45,10 @@
   {
     padding-right:70px;
   }
-  
+  @media (max-width: 480px) {
+  .ads1{
+    display: hidden !important;
+  }
+
+
+  }
